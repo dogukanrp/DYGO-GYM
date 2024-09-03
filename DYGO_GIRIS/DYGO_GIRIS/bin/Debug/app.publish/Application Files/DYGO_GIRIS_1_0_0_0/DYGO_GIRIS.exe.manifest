@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DYGO_GIRIS.exe" version="1.0.0.0" publicKeyToken="9d3f19151524cd6a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DYGO_GIRIS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DYGO_GIRIS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DYGO_GIRIS.exe" size="51802608">
+      <assemblyIdentity name="DYGO_GIRIS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>C8PhVnaHrktbnZ9DN0s24DHn/C3PgUY6UH0wMiMU/Pw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="agq-CM\DYGO_GIRIS.resources.dll" size="3584">
+      <assemblyIdentity name="DYGO_GIRIS.resources" version="1.0.0.0" language="agq-CM" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9oIWwgY+aXWz6x3fjGdoweGfj7OZz+dMB9qcjrbxlUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DYGO_GIRIS.exe.config" size="834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aL8kI2LLgXCTJc97TtJJWGL63S2nQ5H2ePBVaBQB3LU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-KETUKRB\Doğukan" issuerKeyHash="722eb85fdc0ded5deeea5802ab7a3383af3c0900" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RJr2jqrQ6vfh9mk6AQhsfebd0yOxQhmfmsJd8mwqaOs=</DigestValue></Reference></SignedInfo><SignatureValue>VFfhw+HcygV25KMRScSDBJ78EfzNMUJyLPC+uOooR4x3Lf5UZbNz+RL15/wNFKLeWZUpnEMw0k/Xa0E9/gnoCh5eWPRpkhTbjqA5ZSZL/aBIVheYxPgJRbsYCIHyr6OqSeKmntw5YAFDGiZyDXfwOooF9+L02ZGkH/U9RaJvVok=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wf8emqiMbofL8+Dlmf4eEvw7hrqELhNEBYg0vawNBKmidjzmThFwf5ZDDA7d8lRpcZIEYIVBh6f6osKEyeSv4J+VvHh365hYr64XhuSoOExKdE0nECbIjkTE2RqZkrnEbOWktoqu1cO4Ex5hTM8k9BQgbG922IHr1kTCmkeDcjE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eb682a6cf25dc29a9f1942b123d3dde67d6c08013a69f6e1f7ead0aa8ef69a44" Description="" Url=""><as:assemblyIdentity name="DYGO_GIRIS.exe" version="1.0.0.0" publicKeyToken="9d3f19151524cd6a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-KETUKRB\Doğukan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XX7NXicrKM9uUQB+aDbuIdkf5YdGRVE1htC94SGN3Cw=</DigestValue></Reference></SignedInfo><SignatureValue>jRsRin0sN5xr+9NLG5GQJKSY4pXEpga0O2n8z71pa3k2Ns4/mtlWmp1z9QmSVbGmOzgbNsKTSpWydayym3URbOwkK/GKZGUNtqDc+O9lP2UewidOPPa8OyKA9HnGqSCScne+jN87fQ2QPy/IHmC/lxaMTkGQinUQ4t0OXpvxEs8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wf8emqiMbofL8+Dlmf4eEvw7hrqELhNEBYg0vawNBKmidjzmThFwf5ZDDA7d8lRpcZIEYIVBh6f6osKEyeSv4J+VvHh365hYr64XhuSoOExKdE0nECbIjkTE2RqZkrnEbOWktoqu1cO4Ex5hTM8k9BQgbG922IHr1kTCmkeDcjE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQLIZzkw/UKYZD7oHT03NOsjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAEsARQBUAFUASwBSAEIAXABEAG8BHwB1AGsAYQBuMB4XDTI0MDUyNzExNTQ1MVoXDTI1MDUyNzE3NTQ1MVowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBLAEUAVABVAEsAUgBCAFwARABvAR8AdQBrAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwf8emqiMbofL8+Dlmf4eEvw7hrqELhNEBYg0vawNBKmidjzmThFwf5ZDDA7d8lRpcZIEYIVBh6f6osKEyeSv4J+VvHh365hYr64XhuSoOExKdE0nECbIjkTE2RqZkrnEbOWktoqu1cO4Ex5hTM8k9BQgbG922IHr1kTCmkeDcjECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCn+aTSsTI+u+YXiXQBx8/vHUUPkRlD+YA3iepFbVH9vyn1aELE3FGB2EJxp221XFZYkCrzNs8TKmUOaNisGx/it9zEq6OqFa5FGK8yRQ8FAHFkPXEUoN2+F8uIAanwqSGCPvI3Z9WSL5+47m42v9qKJWQujD2psakyNIX9S5QCOA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
